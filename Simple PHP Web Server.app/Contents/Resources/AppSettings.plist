@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>TextSize</key>
+	<integer>12</integer>
+	<key>Secure</key>
+	<false/>
+	<key>AcceptsText</key>
+	<true/>
+	<key>TextEncoding</key>
+	<integer>4</integer>
+	<key>ScriptInterpreter</key>
+	<string>/bin/sh</string>
+	<key>TextFont</key>
+	<string>Avenir</string>
+	<key>TextForeground</key>
+	<string>#000000</string>
+	<key>OutputType</key>
+	<string>Text Window</string>
+	<key>DropSuffixes</key>
+	<array>
+		<string>*</string>
+	</array>
+	<key>RemainRunningAfterCompletion</key>
+	<false/>
+	<key>Creator</key>
+	<string>Jannis Rondorf</string>
+	<key>AcceptsFiles</key>
+	<true/>
+	<key>Droppable</key>
+	<true/>
+	<key>PromptForFileOnLaunch</key>
+	<false/>
+	<key>ScriptArgs</key>
+	<array/>
+	<key>TextBackground</key>
+	<string>#ffffff</string>
+	<key>InterpreterArgs</key>
+	<array/>
+	<key>RequiresAdminPrivileges</key>
+	<false/>
+</dict>
+</plist>

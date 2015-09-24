@@ -29,16 +29,16 @@ done
 
 cd "$SERVER_PATH"
 
-osascript -e 'tell application "Simple Webserver" to activate'
+osascript -e 'tell application "Simple PHP Web Server" to activate'
 
-echo "Starting Webserver in: `pwd`"
-echo "Access it at http://localhost:8000"
-python -m SimpleHTTPServer 2>&1
+echo "Starting PHP Web Server in: `pwd`"
+echo "Access it at http://localhost:8080"
+php -S localhost:8080 2>&1
 STATUS=$?
-echo "Server exited with status: $STATUS"
+echo "PHP Web Server exited with status: $STATUS"
 RES=`osascript -e "tell app \"System Events\"
 activate
-set res to button returned of (display dialog \"The webserver exited unexpectedly.
+set res to button returned of (display dialog \"The PHP Web Server exited unexpectedly.
 See the log window for details.\" buttons {\"OK\"} default button \"OK\" cancel button \"OK\")
 end tell
 "`
